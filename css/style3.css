@@ -18,11 +18,15 @@ h1 {
   font-weight: 100;
   letter-spacing: -2px;
   font-size: 64px;
+  line-height: 66px;
 }
 
 h2 {
-  font-weight: 100;
-  font-size: 48px;
+  font-weight: 400;
+  font-size: 32px;
+  letter-spacing: 1px;
+  color:#CEAF46;
+  line-height: 0px;
 }
 
 h3 {
