@@ -1,0 +1,29 @@
+.btn-transp{
+  border-color: #282424;
+  font-weight: 400;
+  font-size: 36;
+  text-decoration: none;
+  color: #282424;
+  padding: 20px 25;
+  border: solid 1px;
+  opacity: 0.5;
+}
+
+.btn-transp:hover{
+ opacity: 1;
+}
+
+.btn-banner{
+  border-color: white;
+  font-weight: 400;
+  font-size: 36;
+  text-decoration: none;
+  color: white;
+  padding: 20px 25;
+  border: solid 1px;
+  opacity: 0.5;
+}
+
+.btn-banner:hover{
+ opacity: 1;
+}

@@ -1,0 +1,25 @@
+.card{
+background-image: linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), url('http://unsplash.it/1000/400');
+background-size: cover;
+color: white;
+height: 200px;
+position: relative;
+}
+
+.card-user{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.card-category{
+   position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.card-decription{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}

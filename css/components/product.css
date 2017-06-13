@@ -1,0 +1,27 @@
+.product{
+  background-color: #D2DEE3;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px 0 20px;
+}
+
+.product:hover{
+  background-color: #FC88B0;
+  transition: background-color 0.3s ease;
+
+}
+.product-upvote{
+padding: 10px;
+text-align: center;
+}
+
+.product-description{
+  padding-left: 20px;
+  flex: 1 0 auto;
+}
+
+.product-menu{
+  flex: 0 0 25%;
+}
+

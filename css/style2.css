@@ -1,0 +1,60 @@
+/* --- Import Google Fonts stylesheets --- */
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,400,500i");
+
+/* --- Import Components stylesheets --- */
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/product.css");
+@import url("components/banner.css");
+@import url("components/tabs.css");
+/* --- Fonts --- */
+
+body {
+  font-family: 'Raleway';
+}
+
+h1 {
+  font-weight: 100;
+  letter-spacing: -2px;
+  font-size: 64px;
+}
+
+h2 {
+  font-weight: 100;
+  font-size: 48px;
+}
+
+h3 {
+  font-weight: 500;
+  font-style: italic;
+  font-size: 28px;
+}
+
+p {
+  font-weight: 100;
+  font-size: 20;
+  line-height: 30px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.container{
+  width: 700px;
+  margin: 0 auto;
+}
+
+
+.list-inline{
+  list-style: none;
+  padding-left: 0;
+  text-decoration: none;
+}
+
+.list-inline li{
+  display: inline-block;
+  padding: 10px;
+}
+
