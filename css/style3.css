@@ -8,6 +8,8 @@
 @import url("components/product.css");
 @import url("components/banner.css");
 @import url("components/tabs.css");
+@import url("components/footer.css");
+@import url("components/navbar.css");
 /* --- Fonts --- */
 
 body {
@@ -41,15 +43,49 @@ p {
   line-height: 30px;
 }
 
+
 .text-center{
   text-align: center;
 }
 
+.wrapper{
+  background-color: #D2DEE3;
+}
 .container{
-  width: 700px;
+  width: 1000px;
   margin: 0 auto;
 }
+.centered-message{
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
 
+.text-col{
+  width: 350px;
+}
+
+.title{
+   padding-top: 100px;
+   text-align: center;
+}
+
+.title-2{
+   padding-top: 100px;
+   padding-bottom: 300px;
+   text-align: center;
+}
+.img-col{
+  width: 550px;
+}
+
+.two-cols{
+  padding-top: 100px;
+  padding-bottom: 50px;
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
 .list-inline{
   list-style: none;
@@ -60,5 +96,8 @@ p {
 .list-inline li{
   display: inline-block;
   padding: 10px;
+  color: white;
 }
+
+
 
