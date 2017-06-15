@@ -4,7 +4,7 @@
 /* --- Import Components stylesheets --- */
 @import url("components/avatar.css");
 @import url("components/button.css");
-@import url("components/card.css");
+@import url("components/card2.css");
 @import url("components/product.css");
 @import url("components/banner.css");
 @import url("components/tabs.css");
@@ -86,17 +86,30 @@ p {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+.three-cols{
+  padding-top: 100px;
+  padding-bottom: 50px;
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.img-col2{
+  width: 300px;
+}
+
+.double-col{
+  width: 300px;
+  text-align: center;
+}
 
 .list-inline{
   list-style: none;
-  padding-left: 0;
   text-decoration: none;
 }
 
 .list-inline li{
   display: inline-block;
   padding: 10px;
-  color: white;
 }
 
 

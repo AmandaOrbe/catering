@@ -1,0 +1,70 @@
+
+.card-body{
+  background-color: white;
+  padding:10px;
+  border-radius: 2px;
+  box-shadow: 1px 2px 2px #B3B3B3;
+
+}
+
+.card-image{
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  position:relative;
+}
+
+.card-likes{
+  font-size: 14px;
+  font-weight: 400;
+  color:#B3B3B3;
+  padding-top:10px;
+  display:flex;
+  justify-content: flex-end;
+}
+
+.card-likes li{
+  padding:5px;
+}
+.card-footer{
+  display: flex;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  align-items: center;
+
+}
+
+.card-footer img{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.card-footer a{
+  font-weight: bold;
+  color: #3a8bbb;
+  text-decoration: none;
+}
+
+.card-hover{
+  padding-left: 20px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  opacity:0;
+  transition: opacity 0.4s ease;
+}
+
+.card-image:hover .card-hover{
+  opacity:1;
+}
+.cards{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card2{
+ flex: 0 0 30%;
+}
