@@ -14,7 +14,10 @@
 }
 
 .btn-transp:hover{
- opacity: 1;
+  opacity: 1;
+  background-color: #CEAF46;
+  border-color: #CEAF46;
+  transition: background-color 0.3s ease;
 }
 
 .btn-banner{
@@ -29,8 +32,8 @@
 }
 
 .btn-banner:hover{
- background-color: #CEAF46;
- border-color: #CEAF46;
+ background-color: #EDB056;
+ border-color: #EDB056;
  transition: background-color 0.3s ease;
 }
 
@@ -40,6 +43,9 @@
 
 }
 
-.btn-navbar:hover{
- opacity: 1;
+.btn-navbar{
+  margin:20px;
+
 }
+
+
