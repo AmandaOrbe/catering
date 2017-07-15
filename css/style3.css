@@ -11,6 +11,7 @@
 @import url("components/tabs.css");
 @import url("components/footer.css");
 @import url("components/navbar.css");
+@import url("components/images.css");
 /* --- Fonts --- */
 
 body {
@@ -23,7 +24,7 @@ h1 {
   font-family: 'Righteous', cursive;
   font-weight: 100;
   letter-spacing: 1px;
-  font-size: 64px;
+  font-size: 60px;
   line-height: 66px;
 }
 
@@ -38,6 +39,7 @@ h3 {
   font-weight: 500;
   font-style: italic;
   font-size: 28px;
+  color:#EBB75A;
 }
 
 p {
@@ -52,7 +54,7 @@ p {
 }
 
 .wrapper{
-  background-color: #D2DEE3;
+  background-color: white;
 }
 .container{
   width: 1000px;
@@ -79,7 +81,10 @@ p {
    text-align: center;
 }
 .img-col{
-  width: 550px;
+  height:200px; /* you can use % */
+    width: auto;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .two-cols{
@@ -97,7 +102,8 @@ p {
   flex-wrap: wrap;
 }
 .img-col2{
-  width: 300px;
+  height:200px; /* you can use % */
+    width: auto;
 }
 
 .double-col{
