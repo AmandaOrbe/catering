@@ -8,8 +8,10 @@
   align-items: center;
   text-align: center;
   position: relative;
+}
 
-  ;
+.banner h2{
+  color:white;
 }
 .fruta{
   position: absolute;

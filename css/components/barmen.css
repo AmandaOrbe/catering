@@ -1,0 +1,20 @@
+.barmen{
+height: 260px;
+width: 100%;
+margin-top: 60px;
+margin-bottom: 60px;
+border: 1px solid #EBB75A;
+display:flex;
+
+}
+
+.barmen-image{
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  margin:30px;
+}
+
+.barmen-content{
+  margin-right: 20px;
+}

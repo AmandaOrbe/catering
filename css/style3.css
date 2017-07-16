@@ -11,7 +11,7 @@
 @import url("components/tabs.css");
 @import url("components/footer.css");
 @import url("components/navbar.css");
-@import url("components/images.css");
+@import url("components/barmen.css");
 /* --- Fonts --- */
 
 body {
@@ -32,7 +32,7 @@ h2 {
   font-weight: 100;
   font-size: 32px;
   letter-spacing: 1px;
-  color:white;
+  color:#EBB75A;
 }
 
 h3 {
@@ -41,11 +41,17 @@ h3 {
   font-size: 28px;
   color:#EBB75A;
 }
+h4{
+  font-weight: 100;
+  font-size: 24px;
+  letter-spacing: 1px;
+  color:black;
+}
 
 p {
   font-weight: 100;
   font-size: 20;
-  line-height: 30px;
+
 }
 
 
@@ -57,6 +63,7 @@ p {
   background-color: white;
 }
 .container{
+  padding-top: 100px;
   width: 1000px;
   margin: 0 auto;
 }
