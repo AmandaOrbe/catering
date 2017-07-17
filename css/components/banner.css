@@ -1,8 +1,9 @@
 .banner{
-  background-image: url(../images/banner-background.png);
+  background-image: url(../images/banner-background-b.png);
   background-size: cover;
   color: white;
   height: 100vh;
+  min-height: 600px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -39,6 +40,7 @@
   position: absolute;
   right: 50px;
   top:25vh;
+  height: 50% !important;
   text-align: right;
 }
 

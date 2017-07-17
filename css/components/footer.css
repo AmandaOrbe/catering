@@ -5,6 +5,7 @@
   text-decoration: none;
   color: white ;
   height: 35vh;
+  min-height: 200px;
   display: flex;
   justify-content:center;
 }
