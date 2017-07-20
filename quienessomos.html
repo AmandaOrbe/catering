@@ -7,30 +7,34 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Your style -->
-    <link rel="stylesheet" href="css/style3.css">
+    <link rel="stylesheet" media="screen and (max-width: 700px)" href="css/style-mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 700px)" href="css/style-desktop.css">
   </head>
   <body>
+
+<!-- desktop -->
+
      <!-- navbar -->
-   <div class="navbar"><div class="logo">
-        <a href="/home.html" >
-        <img src="css/images/cocteleralogo.png" class="coctelera-brand"/>
-        </a>
+    <div class="navbar-desktop only-desktop">
+      <div class="logo">
+        <a href="/home.html" > LA COCTELERA</a>
       </div>
       <div>
         <ul class="list-inline">
-              <li><a href="">HOME</a></li>
+              <li><a href="home.html">HOME</a></li>
               <li><a href="quienessomos.html"><b>QUIENES SOMOS</b></a></li>
               <li><a href="cocteles.html">NUESTROS COCTELES</a></li>
             </ul>
       </div>
       <div class="btn-navbar">
-          <a href="#" class="btn-transp btn-small"> RESERVA AHORA</a>
+          <a href="#" class="btn-navbar"> reserva ahora</a>
       </div>
     </div>
 
-   <!-- container with list -->
-   <div class="wrapper">
-     <div class="container">
+
+   <!-- barmen desktop  -->
+   <div class="wrapper-barmen-desktop only-desktop">
+     <div class="container-barmen-desktop">
        <h2>NUESTROS BARMEN</h2>
        <div class="barmen">
          <img src="/css/images/anne.png" alt="" class="barmen-image">
@@ -55,6 +59,55 @@
        </div>
      </div>
    </div>
+
+   <!-- mobile -->
+
+      <!-- navbar mobile -->
+
+      <div class="navbar-mobile only-mobile">
+        <div class="navbar-container">
+        <div class="logo-mobile">
+          <a href="/home.html" > LA COCTELERA</a>
+        </div>
+        <div class="bars">
+          <i class="fa fa-bars dropdown-toggle" id="menu-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"></i>
+       <!--  <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="menu-dropdown">
+          <li><a href="home.html"><b>HOME</b></a></li>
+          <li><a href="quienessomos.html">QUIENES SOMOS</a></li>
+          <li><a href="cocteles.html">NUESTROS COCTELES</a></li>
+        </ul> -->
+        </div>
+      </div>
+    </div>
+
+
+  <!-- barmen mobile  -->
+
+  <div class="wrapper-mobile-barmen only-mobile">
+      <div class="container-mobile-barmen only-mobile">
+        <div class="barmen-card-mobile">
+          <div class="barmen-card-container">
+            <img src="/css/images/anne.png" alt="" class="img-barmen-mobile">
+            <h4>ANNELISE PORTO-BRITO</h4>
+            <p>Lorem ipsum dolor sit amet, an noluisse expetendis necessitatibus sea, cu his doctus prodesset. Eum ipsum maiestatis voluptatum ne, quo ea stet adhuc choro. No malis noluisse temporibus est, option assueverit pro an, quando deserunt constituto eu est. Quo ad minim percipitur, nec an nibh essent melius, ridens posidonium sea ex. Id duo duis recusabo, et qui clita imperdiet. Pri lorem suavitate ne, salutatus omittantur definitiones ex vis.</p>
+          </div>
+        </div>
+        <div class="barmen-card-mobile">
+          <div class="barmen-card-container">
+            <img src="/css/images/paola.png" alt="" class="img-barmen-mobile">
+            <h4>PAOLA ESPINOSA</h4>
+            <p>Lorem ipsum dolor sit amet, an noluisse expetendis necessitatibus sea, cu his doctus prodesset. Eum ipsum maiestatis voluptatum ne, quo ea stet adhuc choro. No malis noluisse temporibus est, option assueverit pro an, quando deserunt constituto eu est. Quo ad minim percipitur, nec an nibh essent melius, ridens posidonium sea ex. Id duo duis recusabo, et qui clita imperdiet. Pri lorem suavitate ne, salutatus omittantur definitiones ex vis.</p>
+          </div>
+        </div>
+        <div class="barmen-card-mobile">
+          <div class="barmen-card-container">
+            <img src="/css/images/renata.png" alt="" class="img-barmen-mobile">
+            <h4>RENATA WERTH</h4>
+            <p>Lorem ipsum dolor sit amet, an noluisse expetendis necessitatibus sea, cu his doctus prodesset. Eum ipsum maiestatis voluptatum ne, quo ea stet adhuc choro. No malis noluisse temporibus est, option assueverit pro an, quando deserunt constituto eu est. Quo ad minim percipitur, nec an nibh essent melius, ridens posidonium sea ex. Id duo duis recusabo, et qui clita imperdiet. Pri lorem suavitate ne, salutatus omittantur definitiones ex vis.</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
     <!-- footer -->

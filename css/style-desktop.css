@@ -152,6 +152,12 @@ p {
   display:none
 }
 
-
+.wrapper-barmen-desktop{
+  display:flex;
+  justify-content:center;
+}
+.container-barmen-desktop{
+  width: 80%;
+}
 
 

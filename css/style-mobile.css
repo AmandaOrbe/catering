@@ -11,7 +11,7 @@
 @import url("components/tabs.css");
 @import url("components/footer.css");
 @import url("components/navbar-mobile.css");
-@import url("components/barmen.css");
+@import url("components/barmen-mobile.css");
 /* --- Fonts --- */
 
 body {
@@ -55,9 +55,7 @@ p {
 
 }
 
-.container-fluid {
-   padding: 0px;
-}
+
 
 .text-center{
   text-align: center;

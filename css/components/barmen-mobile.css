@@ -1,0 +1,26 @@
+.wrapper-mobile-barmen{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.container-mobile-barmen{
+  padding-top: 100px;
+  width: 80vw;
+}
+
+.barmen-card-mobile{
+background-color: white;
+display: flex;
+justify-content: center;
+
+}
+
+.img-barmen-mobile{
+  border:solid 1px;
+  width:100%;
+}
+
+.barmen-card-container{
+  width: 80%;
+}
