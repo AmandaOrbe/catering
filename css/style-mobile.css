@@ -1,0 +1,139 @@
+/* --- Import Google Fonts stylesheets --- */
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,400,500i|Righteous");
+
+
+/* --- Import Components stylesheets --- */
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/product.css");
+@import url("components/banner-mobile.css");
+@import url("components/tabs.css");
+@import url("components/footer.css");
+@import url("components/navbar-mobile.css");
+@import url("components/barmen.css");
+/* --- Fonts --- */
+
+body {
+  font-family: 'Raleway';
+  margin:0;
+  padding:0;
+}
+
+h1 {
+  font-family: 'Righteous', cursive;
+  font-weight: 100;
+  letter-spacing: 1px;
+  font-size: 60px;
+}
+
+h2 {
+  font-weight: 100;
+  font-size: 32px;
+  letter-spacing: 1px;
+  color:#EBB75A;
+}
+
+h3 {
+  font-weight: 500;
+  font-style: italic;
+  font-size: 28px;
+  color:#EBB75A;
+}
+h4{
+  font-weight: 100;
+  font-size: 24px;
+  letter-spacing: 1px;
+  color:black;
+}
+
+p {
+  font-weight: 100;
+  font-size: 20;
+
+}
+
+.container-fluid {
+   padding: 0px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.wrapper{
+  width: 100%
+  margin: 0 auto;
+}
+.container2{
+  padding-top: 100px;
+  width: 1000px;
+  margin: 0 auto;
+}
+.centered-message{
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.text-col{
+  width: 350px;
+}
+
+.title{
+   padding-top: 100px;
+   text-align: center;
+}
+
+.title-2{
+   padding-top: 100px;
+   padding-bottom: 300px;
+   text-align: center;
+}
+.img-col{
+  height:200px; /* you can use % */
+    width: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.two-cols{
+  padding-top: 100px;
+  padding-bottom: 50px;
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.three-cols{
+  padding-top: 100px;
+  padding-bottom: 50px;
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.img-col2{
+  height:200px; /* you can use % */
+    width: auto;
+}
+
+.double-col{
+  width: 300px;
+  text-align: center;
+}
+
+.list-inline{
+  list-style: none;
+  text-decoration: none;
+}
+
+.list-inline li{
+  display: inline-block;
+  padding: 10px;
+}
+
+.only-desktop{
+  visibility: hidden;
+}
+
+
+

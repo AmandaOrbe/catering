@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>La Coctelera de Formentera</title>
 
-      <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
 
     <!-- Fontawesome -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -17,54 +15,57 @@
 
     <!-- Your style -->
     <link rel="stylesheet" href="css/style3.css">
+    <link rel="stylesheet" media="screen and (max-width: 700px)" href="css/style-mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 700px)" href="css/style-desktop.css">
+
   </head>
   <body>
-  <!-- navbar -->
-    <div class="navbar"><div class="logo">
-        <a href="/home.html" >
-        <img src="css/images/cocteleralogo.png" class="coctelera-brand"/>
-        </a>
+
+
+  <!-- navbar-->
+    <div class="navbar-desktop only-desktop">
+      <div class="logo">
+        <a href="/home.html" > LA COCTELERA</a>
       </div>
       <div>
         <ul class="list-inline">
-              <li><a href="home.html"><b>HOME<b></a></li>
+              <li><a href="home.html"><b>HOME</b></a></li>
               <li><a href="quienessomos.html">QUIENES SOMOS</a></li>
               <li><a href="cocteles.html">NUESTROS COCTELES</a></li>
             </ul>
       </div>
       <div class="btn-navbar">
-          <a href="#" class="btn-transp btn-small"> RESERVA AHORA</a>
+          <a href="#" class="btn-navbar"> reserva ahora</a>
       </div>
     </div>
 
+
+
+
+
+  <!-- navbar mobile-->
+  <div class="navbar-mobile only-mobile">
+    <div class="navbar-container">
+      <div class="logo-mobile">
+        <a href="/home.html" > LA COCTELERA</a>
+      </div>
+      <div class="bars">
+        <i class="fa fa-bars dropdown-toggle" id="menu-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"></i>
+       <!--  <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="menu-dropdown">
+          <li><a href="home.html"><b>HOME</b></a></li>
+          <li><a href="quienessomos.html">QUIENES SOMOS</a></li>
+          <li><a href="cocteles.html">NUESTROS COCTELES</a></li>
+        </ul> -->
+      </div>
+    </div>
+  </div>
+
     <!-- banner 1 -->
 
-    <div class="banner">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col col-sm-8">
-              <img src="/css/images/banner-table.png" alt="" class="fruta2">
-            </div>
-          </div>
-        </div>
 
-    </div>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-    <div class="banner">
+    <div class="banner-desktop only-desktop">
       <img src="/css/images/banner-table.png" alt="" class="fruta">
-      <div class="banner-content">
+      <div class="banner-desktop-content">
 
             <h1>La COCTELERA
             <br>
@@ -76,6 +77,13 @@
             <a href="#" class=btn-banner> RESERVA AHORA</a>
       </div>
     </div>
+
+
+     <!-- banner 1  mobile-->
+     <div class="banner-mobile only-mobile">
+
+
+     </div>
 
     <!-- mensaje + siguientes banners -->
 
@@ -165,8 +173,6 @@
         </div>
       </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   </body>
 </html>
 
