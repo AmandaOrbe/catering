@@ -3,7 +3,7 @@
   background: #A3D5D5;
   transition: all 0.3s ease;
   display: flex;
-  height: 45px;
+  height: 40px;
   align-items: center;
   justify-content: space-between;
   position: fixed; /* Set the navbar to fixed position */

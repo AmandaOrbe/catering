@@ -5,8 +5,6 @@
     background-repeat: no-repeat;
     position: relative;
     width: 100%;
-    position: fixed;
-    top: 0;
 
 }
 
@@ -17,7 +15,6 @@
   height: 20vh;
 
 }
-
 
 .banner-mobile-content{
   position: absolute;
@@ -33,6 +30,7 @@
 
 .banner-mobile-content h2{
   font-size: 24px;
+  color:white;
 }
 
 .fruta-mobile{
@@ -43,6 +41,55 @@
 
 }
 
+.banner-mobile2{
+  background-size: cover;
+  background-color: #A3D5D5;
+  color: white;
+  height: 60vh;
+  min-height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  position: relative;
+
+}
+
+.banner-mobile-content2{
+  position: absolute;
+  left: 0;
+  bottom: 60;
+  width: 57vw;
+}
+
+.banner-mobile-content2 h1{
+  font-size: 28px;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.banner-mobile-content2 p{
+  font-size: 16px;
+  color:black;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.chica-mobile{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 75vw;
+
+}
+
+.flags-mobile{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width:100%;
+
+}
 
 /*background-repeat: no-repeat;
     background-position: center;

@@ -37,7 +37,8 @@ h2 {
 h3 {
   font-weight: 500;
   font-style: italic;
-  font-size: 28px;
+  font-size: 24px;
+  letter-spacing: 1px;
   color:#EBB75A;
 }
 h4{
@@ -49,7 +50,8 @@ h4{
 
 p {
   font-weight: 100;
-  font-size: 20;
+  font-size: 16;
+  letter-spacing: 1px;
 
 }
 
@@ -61,27 +63,47 @@ p {
   text-align: center;
 }
 
-.wrapper{
-  width: 100%
-  margin: 0 auto;
+.wrapper-mobile{
+  background-color: white;
 }
-.container2{
-  padding-top: 100px;
-  width: 1000px;
+.container-mobile1{
+
+  width: 60vw;
   margin: 0 auto;
+  display:flex;
+  align-items: center;
+}
+.container-mobile2{
+  padding-top: 50px;
+  width: 80vw;
+  margin: 0 auto;
+  display:flex;
+  align-items: center;
+
+}
+
+.services-mobile{
+  width: 100%;
+}
+
+
+.event-card-mobile{
+     text-align: center;
+     padding:25px;
 }
 .centered-message{
   text-align: center;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .text-col{
   width: 350px;
 }
 
-.title{
-   padding-top: 100px;
+.button-centered{
+   padding-top: 50px;
+   padding-bottom: 100px;
    text-align: center;
 }
 
@@ -90,27 +112,13 @@ p {
    padding-bottom: 300px;
    text-align: center;
 }
-.img-col{
-  height:200px; /* you can use % */
+.img-event-mobile{
+  height:120px; /* you can use % */
     width: auto;
-    margin-left: 100px;
-    margin-right: 100px;
 }
 
-.two-cols{
-  padding-top: 100px;
-  padding-bottom: 50px;
-  display:flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-.three-cols{
-  padding-top: 100px;
-  padding-bottom: 50px;
-  display:flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
+
+
 .img-col2{
   height:200px; /* you can use % */
     width: auto;
@@ -133,6 +141,7 @@ p {
 
 .only-desktop{
   visibility: hidden;
+  display:none;
 }
 
 
