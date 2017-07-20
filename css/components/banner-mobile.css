@@ -18,6 +18,32 @@
 
 }
 
+
+.banner-mobile-content{
+  position: absolute;
+  right: 50px;
+  top:18vh;
+  height: 30% !important;
+  text-align: right;
+}
+
+.banner-mobile-content h1{
+  font-size: 40px;
+}
+
+.banner-mobile-content h2{
+  font-size: 24px;
+}
+
+.fruta-mobile{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 30vh;
+
+}
+
+
 /*background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;

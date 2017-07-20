@@ -38,6 +38,25 @@
  transition: background-color 0.3s ease;
 }
 
+.btn-banner-mobile{
+  font-family: 'Righteous', cursive;
+  background-color: #EBB75A;
+  font-weight: 400;
+  font-size: 20;
+  text-decoration: none;
+  color: white;
+  padding: 20px 35;
+  border-radius:4px;
+  opacity: 1;
+}
+
+.btn-banner-mobile:hover{
+ background-color: #EDB056;
+ border-color: #EDB056;
+ transition: background-color 0.3s ease;
+}
+
+
 .btn-small{
   font-size: 18;
   padding: 15px 20;
