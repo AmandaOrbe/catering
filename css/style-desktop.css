@@ -37,7 +37,8 @@ h2 {
 h3 {
   font-weight: 500;
   font-style: italic;
-  font-size: 28px;
+  font-size: 24px;
+  letter-spacing: 1px;
   color:#EBB75A;
 }
 h4{
@@ -49,35 +50,38 @@ h4{
 
 p {
   font-weight: 100;
-  font-size: 20;
+  font-size: 16;
+  letter-spacing: 1px;
 
-}
-
-.container-fluid {
-   padding: 0px;
 }
 
 .text-center{
   text-align: center;
 }
 
-.wrapper{
-  width: 100%
-  margin: 0 auto;
-}
-.container2{
-  padding-top: 100px;
-  width: 1000px;
-  margin: 0 auto;
-}
-.centered-message{
-  text-align: center;
-  padding-top: 150px;
-  padding-bottom: 150px;
+.wrapper1{
+ background-color: white;
 }
 
+.container1{
+  height: 50vh;
+  min-height: 300px;
+  width: 1000px;
+  margin: 0 auto;
+  display:flex;
+  align-items: center;
+}
+
+
+.centered-message{
+  text-align: center;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+
 .text-col{
-  width: 350px;
+  width: 35%;
 }
 
 .title{
@@ -93,16 +97,22 @@ p {
 .img-col{
   height:200px; /* you can use % */
     width: auto;
-    margin-left: 100px;
-    margin-right: 100px;
 }
 
 .two-cols{
-  padding-top: 100px;
-  padding-bottom: 50px;
+ margin:50px;
   display:flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.container2{
+  width: 70vw;
+  margin: 0 auto;
+}
+.container3{
+  width: 60vw;
+  margin: 0 auto;
 }
 .three-cols{
   padding-top: 100px;
@@ -117,8 +127,14 @@ p {
 }
 
 .double-col{
-  width: 300px;
+  width: 16vw;
   text-align: center;
+}
+
+.centered-button-desktop{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
 }
 
 .list-inline{
@@ -133,6 +149,7 @@ p {
 
 .only-mobile{
   visibility:hidden;
+  display:none
 }
 
 

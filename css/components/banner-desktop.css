@@ -3,12 +3,14 @@
   background-size: cover;
   color: white;
   height: 100vh;
+  width: 100vw;
   min-height: 600px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   text-align: center;
   position: relative;
+
 }
 
 .banner-desktop h2{
@@ -33,7 +35,7 @@
   position: absolute;
   right: 0;
   bottom: 0;
-  height: 45vh;
+  width: 35vw;
 
 }
 .banner-desktop-content{
@@ -44,28 +46,30 @@
   text-align: right;
 }
 
-.banner-content2{
+.banner-desktop-content2{
   position: absolute;
   left: 100px;
   top:5vh;
   text-align: left;
-  width: 600px;
+  width: 45vw;
+  padding-right: 15px;
 
 }
 
-.banner-content2 h1{
+.banner-desktop-content2 h1{
   font-size: 48px;
 }
 
 
-.banner-content2 p{
+.banner-desktop-content2 p{
   color:black;
 }
-.banner2{
+.banner-desktop2{
   background-size: cover;
   background-color: #A3D5D5;
   color: white;
   height: 50vh;
+  min-height: 300px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -78,6 +82,7 @@
   background-color: #A3D5D5;
   color: white;
   height: 50vh;
+  min-height: 300px;
   display: flex;
   justify-content: space-around;
   align-items: center;
