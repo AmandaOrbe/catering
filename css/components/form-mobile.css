@@ -8,18 +8,22 @@
   margin-left: 20px;
 }
 
+.form{
+  width:100%;
+}
 
-
-.form-desktop{
-  width:80%;
-  display: flex;
-  justify-content: space-between;
+.form-mobile{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .form-control {
-  width: 47%;
+  display:block;
   height: 34px;
   padding: 20px 20px;
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
   font-size: 14px;
   line-height: 1.42857143;
   color: #222;
