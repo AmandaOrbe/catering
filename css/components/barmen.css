@@ -17,3 +17,7 @@ display:flex;
 .barmen-content{
   margin-right: 20px;
 }
+
+.container-barmen-desktop{
+  width: 80%;
+}

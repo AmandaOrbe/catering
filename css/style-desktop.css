@@ -12,6 +12,7 @@
 @import url("components/footer.css");
 @import url("components/navbar-desktop.css");
 @import url("components/barmen.css");
+@import url("components/form-desktop.css");
 /* --- Fonts --- */
 
 body {
@@ -156,8 +157,6 @@ p {
   display:flex;
   justify-content:center;
 }
-.container-barmen-desktop{
-  width: 80%;
-}
+
 
 
